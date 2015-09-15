@@ -1,0 +1,5 @@
+Grails Goodness: Adding Health Check Indicators
+https://dzone.com/articles/grails-goodness-adding-health
+
+Grails Goodness: Add Some Color to Our Logging 
+https://dzone.com/articles/grails-goodness-add-some-color
