@@ -117,3 +117,9 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+---
+# Extra configuration property. 
+# Value is shown on grails-app/views/index.gsp.
+app:
+    welcome:
+        header: Grails3 Healthcheck and Metrics sample application

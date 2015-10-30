@@ -3,3 +3,6 @@ https://dzone.com/articles/grails-goodness-adding-health
 
 Grails Goodness: Add Some Color to Our Logging 
 https://dzone.com/articles/grails-goodness-add-some-color
+
+Grails Goodness: Run Grails Application As Docker Container
+http://mrhaki.blogspot.com/2015/10/grails-goodness-run-grails-application.html

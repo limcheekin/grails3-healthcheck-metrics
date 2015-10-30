@@ -5,6 +5,7 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url "https://repo.grails.org/grails/core" }
+        jcenter()
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
@@ -83,3 +84,7 @@ bootRun {
     // otherwise use default 'detect'.
     jvmArgs = ['-Dspring.output.ansi.enabled=' + (System.console() ? 'always' : 'detect')]
 }
+
+// Uncomment the following line to build docker image
+// REF: http://mrhaki.blogspot.com/2015/10/grails-goodness-run-grails-application.html
+// apply from: 'gradle/docker.gradle'
