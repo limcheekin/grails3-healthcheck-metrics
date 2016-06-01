@@ -72,6 +72,8 @@ dependencies {
     testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
+
+    compile "org.grails.plugins:grails-melody:1.59.0"
 }
 
 task wrapper(type: Wrapper) {
