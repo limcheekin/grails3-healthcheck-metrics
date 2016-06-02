@@ -73,7 +73,7 @@ dependencies {
 
     console "org.grails:grails-console"
 
-    compile "org.grails.plugins:grails-melody:1.59.0"
+    compile "org.grails.plugins:grails-melody-plugin:1.59.0"
 }
 
 task wrapper(type: Wrapper) {
