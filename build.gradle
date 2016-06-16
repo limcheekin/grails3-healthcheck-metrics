@@ -41,6 +41,7 @@ assets {
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
+    maven { url "http://dl.bintray.com/dmahapatro/plugins" }
 }
 
 dependencyManagement {
@@ -74,6 +75,8 @@ dependencies {
     console "org.grails:grails-console"
 
     compile "org.grails.plugins:grails-melody-plugin:1.59.0"
+
+    compile "org.grails.plugins:actuator-ui:0.2"
 }
 
 task wrapper(type: Wrapper) {
